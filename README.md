@@ -22,3 +22,13 @@ modalities.
 pip install -r requirements.txt
 export MOONSHOT_API_KEY=sk-xxx
 python src/query.py "What is multi-head attention?"
+
+**## Result Example**
+<img width="1243" height="629" alt="截屏2026-05-19 16 57 14" src="https://github.com/user-attachments/assets/5d6b9b12-d4d7-4e09-9224-f0eb85d48421" />
+
+**## Roadmap**
+
+    [ ] Add async batch processing for image summarization
+    [ ] Replace InMemoryStore with persistent docstore
+    [ ] Add evaluation framework (RAGAS)
+    [ ] Deploy as FastAPI service
